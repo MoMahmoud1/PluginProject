@@ -1,17 +1,16 @@
 (function ($) {
 
-    $.fn.controlImage = function(options){
+    $.fn.controlImage = function(){
 
-        var settings = $.extend({
+        const controlImage = $(this);
+        var images = $("#container");
+        const firstImage = 0;
+        screenLeft.click(evt())({
+            firstImage = (firstImage + images-1) % images;
+           $("#container",controlImage).fadeOut("1000");
 
-            $control:
-            $rightButton:
-            $leftButton:
-
-
-
-
-        })
+            
+        });
 
 
 
