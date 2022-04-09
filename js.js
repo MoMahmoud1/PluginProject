@@ -6,8 +6,8 @@
         var images = $("#container");
         const firstImage = 0;
         screenLeft.click(evt())({
-            firstImage = (firstImage + images-1) % images;
-           $("#container",controlImage).fadeOut("1000");
+            var image = $(this).attr("src");
+            $image.attr("src", image);
 
             
         });
