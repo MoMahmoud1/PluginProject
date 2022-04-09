@@ -6,9 +6,6 @@
         var images = $("#container");
         const firstImage = 0;
         screenLeft.click(evt())({
-            var image = $(this).attr("src");
-            $image.attr("src", image);
-
             
         });
 
