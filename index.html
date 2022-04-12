@@ -8,10 +8,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <video autoplay muted loop id="myVideo">
+    <video autoplay loop id="myVideo">
         <source src="video/10.mp4" type="video/mp4">
       </video>
 
+        <!-- <audio controls autoplay>
+        <source src="audio/1.mp3" type="">
+      </audio>	 -->
     <div id="box">
     
         <div id="slideshow" class="slideshow">
@@ -21,92 +24,36 @@
             <div class="slideshow-control">
                 <img class="slideshow-control" rel="prev" src="img/right1.png" width="32" height="32" />
                 <img class="slideshow-control" rel="next" src="img/left1.png" width="32" height="32"/>
-            </div>
+            </div><br>
             <div class="control">
-                <img class="control" rel="auto" src="img/18.jpg" width="32" height="32" />
-                <img class="control" rel="puse" src="img/puse.png" width="32" height="32"/>
+                <img class="auto-control" rel="auto" src="img/start1.jpg" width="32" height="32" />
+                <img class="puse-control" rel="puse" src="img/puse.png" width="32" height="32"/>
             </div>
 
             <img class="slide current" src="img/1.jpg" width="800px" height="750px" />
-            <img class="slide" src="img/2.jpg" width="800px" height="750px"/>
-            <img class="slide" src="img/3.jpg" width="800px" height="750px"/>
-            <img class="slide" src="img/4.jpg" width="800px" height="750px"/>
-            <img class="slide" src="img/5.jpg" width="800px" height="750px"/>
-            <img class="slide" src="img/6.jpg" width="800px" height="750px"/>
-            <img class="slide" src="img/7.jpg" width="800px" height="750px"/>
-            <img class="slide" src="img/8.jpg" width="800px" height="750px"/>
-            <img class="slide" src="img/9.jpg" width="800px" height="750px"/>
-            <img class="slide" src="img/10.jpg" width="800px" height="750px"/>
-            <img class="slide" src="img/11.jpg" width="800px" height="750px"/>
-            <img class="slide" src="img/12.jpg" width="800px" height="750px"/>
-            <img class="slide" src="img/13.jpg" width="800px" height="750px"/>
-            <img class="slide" src="img/14.jpg" width="800px" height="750px"/>
-            <img class="slide" src="img/15.jpg" width="800px" height="750px"/>
-            <img class="slide" src="img/16.jpg" width="800px" height="750px"/>
-            <img class="slide" src="img/17.jpg" width="800px" height="750px"/>
-            <img class="slide" src="img/18.jpg" width="800px" height="750px"/>
+            <img class="slide" src="img/2.jpg" width="800px" height="650px"/>
+            <img class="slide" src="img/3.jpg" width="800px" height="650px"/>
+            <img class="slide" src="img/4.jpg" width="800px" height="650px"/>
+            <img class="slide" src="img/5.jpg" width="800px" height="650px"/>
+            <img class="slide" src="img/6.jpg" width="800px" height="650px"/>
+            <img class="slide" src="img/7.jpg" width="800px" height="650px"/>
+            <img class="slide" src="img/8.jpg" width="800px" height="650px"/>
+            <img class="slide" src="img/9.jpg" width="800px" height="650px"/>
+            <img class="slide" src="img/10.jpg" width="800px" height="650px"/>
+            <img class="slide" src="img/11.jpg" width="800px" height="650px"/>
+            <img class="slide" src="img/12.jpg" width="800px" height="650px"/>
+            <img class="slide" src="img/13.jpg" width="800px" height="650px"/>
+            <img class="slide" src="img/14.jpg" width="800px" height="650px"/>
+            <img class="slide" src="img/15.jpg" width="800px" height="650px"/>
+            <img class="slide" src="img/16.jpg" width="800px" height="650px"/>
+            <img class="slide" src="img/17.jpg" width="800px" height="650px"/>
             
         </div>
 
     </div>
 
-
-    <div id="port" class="portfolio block">
-        <div class="container">
-            <ul class="change">
-                <li class="selected filter" id="all">all</li>
-                <li class="filter" id="Character">Character</li>
-                <li class="filter" id="Weapons">Weapons</li>
-                <li class="filter" id="Vehicles">Vehicles</li>
-                <li class="filter" id="Maps">Maps</li>
-            </ul>
-            <div id="container" class="gallery">
-                <div class="row">
-                    <div class="Character mix">  
-                        <img src="image/1.jpg" alt="" />
-                    </div>
-                    <div class="Character mix"> 
-                        <img src="image/2.jpg" alt="" />
-                    </div>
-                    <div class="Weapons mix"> 
-                        <img src="image/3.jpg" alt="" />
-                    </div>
-                    <div class="Weapons mix">  
-                        <img src="image/5.jpg" alt="" />
-                    </div>
-                    <div class="Weapons mix">  
-                        <img src="image/6.jpg" alt="" />
-                    </div>
-                    <div class="Weapons mix">  
-                        <img src="image/7.jpg" alt="" />
-                    </div>
-                    <div class="Vehicles">  
-                        <img src="image/8.jpg" alt="" />
-                    </div>
-                    <div class="Vehicles">  
-                        <img src="image/9.jpg" alt="" />
-                    </div>
-                    <div class="Vehicles">  
-                        <img src="image/10.jpg" alt="" />
-                    </div>
-                    <div class="Vehicles"> 
-                        <img src="image/11.jpg" alt="" />
-                    </div>
-                    <div class="Maps">  
-                        <img src="image/12.jpg" alt="" />
-                    </div>
-                    <div class="Maps">  
-                        <img src="image/13.jpg" alt="" />
-                    </div>
-                    <div class="Maps">  
-                        <img src="image/14.jpg" alt="" />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <script src="http://code.jquery.com/jquery-1.4.2.min.js" ></script>
       <script src="js.js" ></script>
+      <script src="lip.js"></script>
 </body>
 </html>
