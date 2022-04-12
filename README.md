@@ -13,6 +13,17 @@ requirements.
 6-audio folder with control button.
 7-video folder playing in background auto play.
 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video autoplay  loop id="myVideo">
+        <source src="video/10.mp4" type="video/mp4">
+      </video>
+
+        <!-- <audio controls autoplay>
+        <source src="audio/1.mp3" type="">
+      </audio>	 -->
+
 Html
 1-h element for pubg overview.
 2-Create html to contain div image.
