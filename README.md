@@ -20,9 +20,7 @@ requirements.
         <source src="video/10.mp4" type="video/mp4">
       </video>
 
-        <!-- <audio controls autoplay>
-        <source src="audio/1.mp3" type="">
-      </audio>	 -->
+     
 
 Html
 1-h element for pubg overview.
