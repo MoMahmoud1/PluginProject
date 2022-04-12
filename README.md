@@ -4,6 +4,10 @@ requirements.
 1-plugin.js file
 2- HTML file.
 3-lip.js file.
+<script src="http://code.jquery.com/jquery-1.4.2.min.js" ></script>
+    <script src="js.js" ></script>
+    <script src="lip.js"></script>
+
 4-Css file for styling to add style for html element styling.
 5-Folder for image.
 6-audio folder with control button.
@@ -15,5 +19,6 @@ Html
 3-Include dive for logo contain game logo.
 4- link to css file.
 5-link to jquery file.
+
 
 
