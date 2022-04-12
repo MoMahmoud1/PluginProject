@@ -9,13 +9,16 @@ requirements.
     <script src="lip.js"></script>
 
 4-Css file for styling to add style for html element styling.
+
+   <link rel="stylesheet" href="style.css">
+   
 5-Folder for image.
 6-audio folder with control button.
 7-video folder playing in background auto play.
 
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    
+    
     <video autoplay  loop id="myVideo">
         <source src="video/10.mp4" type="video/mp4">
       </video>
