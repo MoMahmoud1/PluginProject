@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <video autoplay loop id="myVideo">
+    <div id="myVideo">
+      <video controls autoplay loop>
         <source src="video/10.mp4" type="video/mp4">
       </video>
-
+    </div>
         <!-- <audio controls autoplay>
         <source src="audio/1.mp3" type="">
       </audio>	 -->
@@ -55,5 +56,9 @@
     <script src="http://code.jquery.com/jquery-1.4.2.min.js" ></script>
       <script src="js.js" ></script>
       <script src="lip.js"></script>
+      <script>
+         var video =  document.getElementById('#myVideo');
+         video.play()
+      </script>
 </body>
 </html>
