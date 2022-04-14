@@ -1,4 +1,4 @@
-I am creating a plugin for slide show for pubg game the plugin will display images with some setting  using timer and fade in and out options to adjust up to the user needs ,plugin have four option first one is arrow left to slide the images to the left second option will display images to  the right third option will be auto play will display images automatically forth option will stop the auto play  
+I am creating a plugin for Overviwe for pubg game the plugin will display images with some setting  using timer and fade in and out options to adjust up to the user needs ,plugin have four option first one is arrow left to slide the images to the left second option will display images to  the right third option will be auto play will display images automatically forth option will stop the auto play  
 
 requirements.
 1-plugin.js file
