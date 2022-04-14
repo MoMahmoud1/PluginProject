@@ -23,12 +23,22 @@ body {
   background-color:blue;
 
 }
+
+#myVideo {
+  position: fixed; 
+  right: 0;
+  bottom: 0%;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
 h1{
   
    border-radius: 2rem;
     text-align: center;
     color:red;
 }
+
 #slideshow {
     
   position: relative;
@@ -61,11 +71,3 @@ border: black;
 
 }
 
-#myVideo {
-    position: fixed; 
-    right: 0;
-    bottom: 0%;
-    min-width: 100%; 
-    min-height: 100%;
-  }
-  
